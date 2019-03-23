@@ -19,5 +19,5 @@ create table t_my_file (
 alter table t_my_file comment '存储文件信息表';
 
 ## 权限的初始化数据
-insert into t_my_file(corporation, type, name, extension, content) values (-1, "图片", "图片1", "jpg", "12345");
-insert into t_my_file(corporation, type, name, extension, content) values (-1, "图片", "图片2", "png", "54321");
+insert into t_my_file(corporation, type, name, extension, content) values (1, "图片", "图片1", "jpg", "12345");
+insert into t_my_file(corporation, type, name, extension, content) values (1, "图片", "图片2", "png", "54321");
